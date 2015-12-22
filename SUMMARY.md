@@ -10,17 +10,14 @@
   * [Sublime](tools/editores.md)
 
 * Guias de estilo
-  * [PHP](langs/php.md)
-  * [Javascript](langs/javascript.md)
-  * [HTML](langs/html.md)
-
-* Stack
-  * Back
-    * [Laravel](back/laravel.md)
-  * Front
-    * [Angular](front/angular.md)
-    * [Bootstrap](front/bootstrap.md)
-    * [Laravel elixir y gulp](front/laravel_elixir.md)
+  * [PHP](styleguides/php.md)
+  * [Laravel](styleguides/laravel.md)
+  * [Javascript](styleguides/javascript.md)
+  * [Jquery](styleguides/jquery.md)
+  * [Angular](styleguides/angular.md)
+  * [HTML](styleguides/html.md)
+  * [Bootstrap](styleguides/bootstrap.md)
+  * [Laravel elixir y gulp](styleguides/laravel_elixir.md)
 
 * Servicios
   * [Mail](services/mail.md)
