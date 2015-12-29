@@ -5,9 +5,8 @@
 
 * Herramientas
   * [Vagrant](tools/vagrant.md)
-  * [Git](tools/editores.md)
-  * [Vim](tools/editores.md)
-  * [Sublime](tools/editores.md)
+  * [Git](tools/git.md)
+  * [Sublime](tools/sublime.md)
 
 * Guias de estilo
   * [PHP](styleguides/php.md)
