@@ -1,0 +1,17 @@
+{
+    "title": "APHIX - Documentación",
+    "links": {
+        "sidebar": {
+            "APHIX": "http://docs.aphix.cl"
+        }
+    },
+    "plugins" : ["github", "ungrey"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/Aphix-Labs/docix"
+        }
+    },
+    "structure": {
+        "readme": "README.md"
+    }
+}
