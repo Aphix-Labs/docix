@@ -15,7 +15,8 @@
 ## Controladores
 
 * Controladores deben terminar con el sufijo `Controller`. Ejemplo: `UserController`
-* En lo posible seguir controladores REST, ya sea para mantenedores y acciones del mismo estilo
+* En lo posible seguir controladores REST, ya sea para mantenedores y acciones del mismo estilo. Evitar muchas funciones en los controladores, ya que podria ser un 'code smell' de que se necesite otro controlador
+* Mantener el codigo lo mas corto posible. Las funcionalidades deberian ser implementadas en los modelos, repositorios, servicios u otras clases
 
 ## Modelos
 
@@ -45,4 +46,13 @@ protected $fillable = [
 
 * Parciales comiezan con un guion bajo. Ejemplo: 'partials/_common_error.blade.php'
 * Usar carpeta partials en lo posible para almacenarlos
+* Los templates bases van en carpeta 'layouts'
 
+# Packages comunes
+
+* Forms ["illuminate/html"](https://github.com/illuminate/html)
+* Para renombrar columnas en migraciones: ["doctrine/dbal"](https://github.com/doctrine/dbal)
+* Para correos usar mandrill se requiere usar ["guzzlehttp/guzzle"](https://github.com/guzzle/guzzle)
+* Para excel: ["maatwebsite/excel"](https://github.com/Maatwebsite/Laravel-Excel)
+* Para manipulacion de imagenes: ["intervention/image"](https://github.com/Intervention/image)
+* Log con slack ["rap2hpoutre/laravel-epilog"](https://github.com/rap2hpoutre/laravel-epilog)
